@@ -6,7 +6,7 @@ import java.security.Key;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
-public class Decrypt {
+public class PasswordFileDecrypt {
 
     private static final byte OBFUSCATION_BASE_BYTE = 65;
     private static final Key ENCRYPTION_KEY = getKey("7a4^8@(vAJXr^.VR");
